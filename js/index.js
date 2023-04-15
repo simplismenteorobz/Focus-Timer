@@ -88,24 +88,35 @@ florest.addEventListener('click', function(){
   controls.florest()
   sounds.florest()
   inputFlorest.value = 0.5
-  bFlorest.volume = 0.5
+  inputRain.value = 0.5
+  inputFire.value = 0.5
+  inputCoffe.value = 0.5
 })
 
 rain.addEventListener('click', function(){
   controls.rain()
   sounds.rain()
+  inputFlorest.value = 0.5
   inputRain.value = 0.5
+  inputFire.value = 0.5
+  inputCoffe.value = 0.5
 })
 
 fire.addEventListener('click', function(){
   controls.fire()
   sounds.fire()
+  inputFlorest.value = 0.5
+  inputRain.value = 0.5
   inputFire.value = 0.5
+  inputCoffe.value = 0.5
 })
 
 coffe.addEventListener('click', function(){
   controls.coffe()
   sounds.coffe()
+  inputFlorest.value = 0.5
+  inputRain.value = 0.5
+  inputFire.value = 0.5
   inputCoffe.value = 0.5
 })
 
