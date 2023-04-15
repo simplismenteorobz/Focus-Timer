@@ -23,6 +23,14 @@ export default function({
                 minutesDisplay.value = String(minutesUpdate).padStart(2,"0")
             }
             
+            //impossibilita os segundos ultrapassarem 60
+            if(seconds > 60){
+              secondsDisplay.value = 60
+
+              let secondsUpdate = secondsDisplay.value
+              secondsDisplay.value = String(secondsUpdate).padStart(2,"0")
+            }
+            
             secondsDisplay.value--
             
             let secondsUpdate = secondsDisplay.value

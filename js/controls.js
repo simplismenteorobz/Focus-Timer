@@ -85,11 +85,31 @@ function light(){
 }
 
 function more(){
+  if ( minutesDisplay.value >= 95 ) {
+    let minutesUpdate = minutesDisplay.value
+    minutesDisplay.value = String(minutesUpdate).padStart(2,"0")
+    
+    return
+  }
+  
   minutesDisplay.value = Number(minutesDisplay.value) + 5
+  
+  let minutesUpdate = minutesDisplay.value
+  minutesDisplay.value = String(minutesUpdate).padStart(2,"0")
 }
 
 function less(){
+  if ( minutesDisplay.value <= 5 ) {
+    let minutesUpdate = minutesDisplay.value
+    minutesDisplay.value = String(minutesUpdate).padStart(2,"0")
+    
+    return
+  }
+  
   minutesDisplay.value = Number(minutesDisplay.value) - 5
+  
+  let minutesUpdate = minutesDisplay.value
+  minutesDisplay.value = String(minutesUpdate).padStart(2,"0")
 }
 
 return{
