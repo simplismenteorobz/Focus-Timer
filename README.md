@@ -6,8 +6,6 @@ Codei um site de um cronômetro com 4 músicas diferentes e volume ajustável no
 
 Também é possível trocar o tema do site através do um botão no canto superior direito.
 
-NOTA: o site está com alguns pequenos bugs que serão consertados em breve, eu perdi a versão 100% funcional, pois não usava o git ainda.
-
 
 ## Imagens do Projeto:
 
